@@ -1,82 +1,17 @@
-# Can adding an audible signal showing the position of escape route signs get passengers to an exit faster? 
+3D reconstruction of a scene 
+## Motivation and goal
+The generation of a realistic virtual world by computer is a hot research topic nowadays. This project is based on the TIP technology [ 1 ] proposed by HORRY to generate different views from a single image. Mainly for scene modelling with traditional boxed features. The aim is to visualise 3D reconstruction of a scene stereo images.
 
+## Algorithms 
+1. Algorithm to complete missing images [ 2 ]
+   
+Determine which pixel of the area to be repaired should have which colour by using the surrounding pixels of the missing area. Interpolate from outside to inside until all pixels are filled.
 
-## Motivation
+2. Image Warp Algorithm [ 3 ]
 
-Signal presentation on multiple channels
-In other context e.g. airplane cockpits faster detection of warnings by visual & audio cue [3]
+The image distortion algorithm maps the pixel locations of the output distorted image to the pixel locations in the input image by using a reverse mapping technique.
 
-- Transfer to escape route indication?
-- Faster detection by adding audio indication to the exiting signs
-- Finding the way faster?
-- Finding the closest exit?
-
-
-##  Hypotheses
-1.The average escape time is shorter if the escape route signs are equipped with an audio signal indicating the position of the signs.
-
-2.The number of participants which use the closest escape route is higher if the escape route signs are equipped with an audio signal indicating the position of the signs.
-
-
-##  Variables
--Independent Variable	
-
-escape route sign indication
-
-(1) visual escape route signs only 
-(2) visual escape route signs with audio signal indicating their position
-
-- Dependent Variables  
-average escape time [seconds]
-took the closest exit [boolean]
-
-- Statistics
-between-subject design  
-independent samples T-test
-
-## Implementation!
-- Software
-
-Unity 2020.3.3f1
-
-- Hardware
-
-HTC VIVE Pro with controllers
-locomotion by arm-swinging method
-standardised testing room
-standing only play-area
-looking around via head movement
-
-![image](https://github.com/RuanLinya/Escape-Route/assets/133128176/6e315dc2-9c98-4842-bd89-5330f683abe0)
-![image](https://github.com/RuanLinya/Escape-Route/assets/133128176/50ba5aed-5dd2-435d-81ef-c65bf8136dba)
-
-- VR-Setting
-office building with 4 emergency exits 
-
-escape route sign point to closest exit
-
-<img width="641" alt="image" src="https://github.com/RuanLinya/Escape-Route/assets/133128176/cef56c6f-0d2d-48fd-8260-2ad8261e6062">
-
-- Cover Story
-
-Participants enter through an exit that is not the closest exit 
-Test the arm-swinging method for locomotion in VR
-First get familiar then test it in a real life scenario
-
-## Demo
-https://youtu.be/XBQUJZpDeBs
-
-## Contact
-E-mail: ruanlinya@gmail.com
-
-## References
-
-
-[1] https://www.hilpress.com/en/Signs/Emergency-signs/Standard-Emergency-signs/HIL-SIGN-Escape-route-to-the-right-hard-PVC-400-x-200-mm.html
-
-[2] https://www.vive.com/eu/support/vive-pro-hmd/category_howto/setting-up-standing-only-play-area.html
-
-[3] Niermann, C. (2015). Multimodalität im Cockpit - Informationskanäle Überlagern und Ersetzen.
-
-
-
+## Reference
+[1] Tour Into the Picture: Using a Spidery Mesh Interface to Make Animation from a Single Image, Youichi Horry, January 1997
+[2] https://blog.csdn.net/qq_42771692/article/details/99617861
+[3] https://www.mathworks.com/help//visionhdl/ug/image-warp.html
