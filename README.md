@@ -1,4 +1,7 @@
 ## 3D reconstruction of a scene 
+
+<img width="452" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/293289b2-00cf-4c33-a8ca-bb8ea8a4d361">
+
 # Motivation and goal
 The generation of a realistic virtual world by computer is a hot research topic nowadays. This project is based on the TIP technology [ 1 ] proposed by HORRY to generate different views from a single image. Mainly for scene modelling with traditional boxed features. The aim is to visualise 3D reconstruction of a scene stereo images.
 
