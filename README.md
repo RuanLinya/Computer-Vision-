@@ -4,6 +4,8 @@ The generation of a realistic virtual world by computer is a hot research topic 
 
 ## Algorithms 
 1. Algorithm to complete missing images [ 2 ]
+   <img width="378" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/1bf2140a-eef0-4f87-aa05-22c8435c7a54">
+
    
 Determine which pixel of the area to be repaired should have which colour by using the surrounding pixels of the missing area. Interpolate from outside to inside until all pixels are filled.
 
