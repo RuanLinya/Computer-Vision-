@@ -12,6 +12,9 @@ Determine which pixel of the area to be repaired should have which colour by usi
 
 2. Image Warp Algorithm [ 3 ]
 
+   <img width="528" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/fdd034c4-abb2-45f0-aeb2-168f9d6625d4">
+
+
 The image distortion algorithm maps the pixel locations of the output distorted image to the pixel locations in the input image by using a reverse mapping technique.
 
 # Reference
