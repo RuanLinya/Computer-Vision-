@@ -4,6 +4,7 @@ The generation of a realistic virtual world by computer is a hot research topic 
 
 # Algorithms 
 1. Algorithm to complete missing images [ 2 ]
+
    <img width="554" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/f893ed79-1a95-4cdd-90ec-fc66d3020e2a">
 
      
