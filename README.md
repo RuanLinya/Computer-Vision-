@@ -45,6 +45,14 @@ The image distortion algorithm maps the pixel locations of the output distorted 
 
 <img width="192" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/891ed2b6-42f4-4333-bea2-3e193a9d2238">
 
+## Contact
+E-mail: ruanlinya@gmail.com
+
+## Demo
+https://youtube.com/shorts/-d-HhsDy-VI
+
+https://youtu.be/4h3lnGUMNfk
+
 
 
 
