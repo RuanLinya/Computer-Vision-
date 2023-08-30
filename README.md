@@ -17,6 +17,34 @@ Determine which pixel of the area to be repaired should have which colour by usi
 
 The image distortion algorithm maps the pixel locations of the output distorted image to the pixel locations in the input image by using a reverse mapping technique.
 
+# Principles
+1. Extraction of foreground objects
+
+<img width="476" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/96e34969-056e-4785-92ea-bf6199dd448b">
+
+2. The spider web in TIP technology consists of vanishing point, inner window and outer window.
+
+<img width="160" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/89184fc4-db85-4a05-94e0-83e929f25e5a">
+
+3.With the help of the lines through the vanishing point and each corner of the rectangle, five walls and the future corners of the room are created. 
+
+<img width="162" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/1fe3d772-03b2-4ce9-a446-060b59d76fde">
+
+4. Foreground placement
+
+<img width="500" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/0c3559ad-ac48-4fbf-9619-079f753cc8b7">
+
+5.By function ''meshgrid'' the 3D space is created.
+
+<img width="198" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/c4064d13-b965-4d9b-b434-f585c4b78ce3">
+
+6.A cube is created by the function ''warp''.  The right wall, left wall, back wall, floor, ceiling are projected onto this BOX model. 
+
+<img width="192" alt="image" src="https://github.com/RuanLinya/Computer-Vision-/assets/133128176/891ed2b6-42f4-4333-bea2-3e193a9d2238">
+
+
+
+
 # Reference
 [1] Tour Into the Picture: Using a Spidery Mesh Interface to Make Animation from a Single Image, Youichi Horry, January 1997
 
